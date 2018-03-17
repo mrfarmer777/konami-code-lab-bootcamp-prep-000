@@ -13,10 +13,10 @@ function init() {
 let index=0;
 function checkKon(e){
   const key = parseInt(e.detail || e.which);
-  console.log("Target key: "+code[index]);
+  //console.log("Target key: "+code[index]);
   if(key===code[index]){
     index++;
-    console.log(index);
+    //console.log(index);
     if(index===code.length){
       alert('you entered the code');
       index=0;
