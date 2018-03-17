@@ -5,12 +5,7 @@ function init() {
   var target = document.querySelector('body');
   target.addEventListener('keydown',checkKon);
   
- 
-
-  
-  
-}
-let index=0;
+ let index=0;
 function checkKon(e){
   const key = parseInt(e.detail || e.which);
   //console.log("Target key: "+code[index]);
@@ -25,4 +20,8 @@ function checkKon(e){
     //alert('you entered the wrong code');
     index=0;
   }
+}
+
+  
+  
 }
