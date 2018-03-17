@@ -17,8 +17,7 @@ function checkKon(e){
       index=0;
     }
   } else {
-    //alert('you entered the wrong code');
-    index=0;
+       index=0;
   }
 }
 
